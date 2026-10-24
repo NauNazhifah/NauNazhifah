@@ -163,13 +163,13 @@
   </g>
 
   <!-- Window Header Title -->
-  <text x="460" y="32" text-anchor="middle" class="term-title">naurah@terminal-portfolio: ~/biodata-lengkap (zsh)</text>
+  <text x="460" y="32" text-anchor="middle" class="term-title">naurah@portfolio: ~/biodata-lengkap (read-only model)</text>
 
-  <!-- Header Right Mini Badge -->
+  <!-- Header Right Mini Badge (Visual Model Indicator) -->
   <g transform="translate(775, 18)">
     <rect x="0" y="0" width="115" height="18" rx="9" fill="#5a0014" fill-opacity="0.85" stroke="#d97127" stroke-width="0.8"/>
-    <circle cx="12" cy="9" r="3.5" fill="#2fb344"/>
-    <text x="64" y="13" text-anchor="middle" class="badge-online">CLI SESSION</text>
+    <circle cx="12" cy="9" r="3.5" fill="#d97127"/>
+    <text x="64" y="13" text-anchor="middle" class="badge-online">READ-ONLY</text>
   </g>
 
   <!-- Content Area (Monospace) -->
@@ -363,14 +363,14 @@
       </text>
     </g>
 
-    <!-- Command 3: Active Prompt with Blinking Cursor -->
+    <!-- Command 3: Static Model Completion -->
     <g transform="translate(0, 420)">
       <text x="0" y="0">
         <tspan class="prompt-user">naurah@portfolio</tspan>
         <tspan class="prompt-symbol">:</tspan>
         <tspan class="prompt-symbol">~</tspan>
         <tspan class="prompt-symbol">$ </tspan>
-        <tspan class="cursor">▋</tspan>
+        <tspan class="prompt-cmd">exit</tspan>
       </text>
     </g>
 

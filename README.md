@@ -35,49 +35,9 @@
 ## 👩‍💻 Tentang Saya *(About Me)*
 
 <div align="center">
-  <!-- Terminal Style Portfolio Card -->
+  <!-- Terminal Style Portfolio Card (Visual Model) -->
   <img src="./assets/terminal.svg" alt="Naurah Nazhifah Terminal Portfolio" width="100%" />
 </div>
-
-<br/>
-
-<details>
-<summary><b>🖥️ Klik untuk melihat Biodata Terminal dalam format Teks / JSON</b></summary>
-<br/>
-
-```bash
-naurah@portfolio:~$ cat biodata.json
-```
-
-```json
-{
-  "nama_lengkap": "Naurah Nazhifah",
-  "nama_panggilan": "Nau / Nazhi",
-  "status": "Mahasiswa Aktif 🎓",
-  "lokasi": "Indonesia 🇮🇩",
-  "identitas": "A Curious Person Exploring Technology 🔍",
-  "fokus_saat_ini": "Modern Web Development & Dasar Pemrograman 💻",
-  "keahlian_teknis": {
-    "bahasa_pemrograman": ["HTML5", "CSS3", "JavaScript", "Python"],
-    "tools_dan_workflow": ["VS Code", "Git", "GitHub", "Figma", "Notion"]
-  },
-  "bahasa_komunikasi": ["Bahasa Indonesia (Native)", "English"],
-  "filosofi_belajar": "Growth Mindset — konsisten belajar bertahap & tidak ragu bereksplorasi 🌱",
-  "minat_eksplorasi": [
-    "Frontend Development & Creative Web",
-    "UI/UX Design Exploration",
-    "Problem Solving & Open Source Collaboration"
-  ],
-  "bahan_bakar": "Secangkir teh hangat & alunan lo-fi beats ☕",
-  "kontak": {
-    "email": "naunanazhi@gmail.com",
-    "github": "https://github.com/NauNazhifah"
-  },
-  "motto": "Stay curious — asking questions and exploring possibilities is the first step to building impactful things. ✨"
-}
-```
-
-</details>
 
 <br/>
 
