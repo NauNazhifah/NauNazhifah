@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 24" width="100%" height="24">
+  <defs>
+    <linearGradient id="divGradLeft" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a10325" stop-opacity="0"/>
+      <stop offset="60%" stop-color="#a10325" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#d97127"/>
+    </linearGradient>
+    <linearGradient id="divGradRight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#d97127"/>
+      <stop offset="40%" stop-color="#a10325" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#a10325" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <!-- Left Line -->
+  <line x1="50" y1="12" x2="425" y2="12" stroke="url(#divGradLeft)" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Center Star Ornament -->
+  <g transform="translate(450, 12)">
+    <polygon points="0,-8 2.5,-2.5 8,0 2.5,2.5 0,8 -2.5,2.5 -8,0 -2.5,-2.5" fill="#f0dba3"/>
+    <circle cx="0" cy="0" r="1.5" fill="#a10325"/>
+    <circle cx="-16" cy="0" r="2.5" fill="#d97127"/>
+    <circle cx="16" cy="0" r="2.5" fill="#d97127"/>
+  </g>
+
+  <!-- Right Line -->
+  <line x1="475" y1="12" x2="850" y2="12" stroke="url(#divGradRight)" stroke-width="2" stroke-linecap="round"/>
+</svg>
