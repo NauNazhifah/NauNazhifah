@@ -34,15 +34,50 @@
 
 ## 👩‍💻 Tentang Saya *(About Me)*
 
-Halo semuanya! 👋 Selamat datang di profil GitHub saya. Saya **Naurah Nazhifah**, seorang **Mahasiswa** yang memiliki rasa ingin tahu tinggi terhadap teknologi, pemrograman, dan proses kreatif di balik pembuatan perangkat lunak.
+<div align="center">
+  <!-- Terminal Style Portfolio Card -->
+  <img src="./assets/terminal.svg" alt="Naurah Nazhifah Terminal Portfolio" width="100%" />
+</div>
 
-> 🌟 *"Stay curious — asking questions and exploring possibilities is the first step to building impactful things."*
+<br/>
 
-- 🎓 **Status & Profesi**: Mahasiswa yang aktif belajar, bereksplorasi, dan mengembangkan skill teknis.
-- 🔍 **Personal Identity**: *A curious person* — selalu bersemangat mempelajari hal-hal baru dan mendalami bagaimana teknologi bekerja di balik layar.
-- 💻 **Fokus Saat Ini**: Memperdalam dasar pemrograman, eksplorasi *modern web development*, dan membangun proyek-proyek yang solutif.
-- 🌱 **Filosofi Belajar**: Percaya pada proses konsisten (*growth mindset*) dan tidak ragu mencoba hal baru meskipun menantang.
-- 🤝 **Kolaborasi**: Sangat terbuka untuk bertukar pikiran, belajar bareng, maupun kolaborasi proyek open-source!
+<details>
+<summary><b>🖥️ Klik untuk melihat Biodata Terminal dalam format Teks / JSON</b></summary>
+<br/>
+
+```bash
+naurah@portfolio:~$ cat biodata.json
+```
+
+```json
+{
+  "nama_lengkap": "Naurah Nazhifah",
+  "nama_panggilan": "Nau / Nazhi",
+  "status": "Mahasiswa Aktif 🎓",
+  "lokasi": "Indonesia 🇮🇩",
+  "identitas": "A Curious Person Exploring Technology 🔍",
+  "fokus_saat_ini": "Modern Web Development & Dasar Pemrograman 💻",
+  "keahlian_teknis": {
+    "bahasa_pemrograman": ["HTML5", "CSS3", "JavaScript", "Python"],
+    "tools_dan_workflow": ["VS Code", "Git", "GitHub", "Figma", "Notion"]
+  },
+  "bahasa_komunikasi": ["Bahasa Indonesia (Native)", "English"],
+  "filosofi_belajar": "Growth Mindset — konsisten belajar bertahap & tidak ragu bereksplorasi 🌱",
+  "minat_eksplorasi": [
+    "Frontend Development & Creative Web",
+    "UI/UX Design Exploration",
+    "Problem Solving & Open Source Collaboration"
+  ],
+  "bahan_bakar": "Secangkir teh hangat & alunan lo-fi beats ☕",
+  "kontak": {
+    "email": "naunanazhi@gmail.com",
+    "github": "https://github.com/NauNazhifah"
+  },
+  "motto": "Stay curious — asking questions and exploring possibilities is the first step to building impactful things. ✨"
+}
+```
+
+</details>
 
 <br/>
 
