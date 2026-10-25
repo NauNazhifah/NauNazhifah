@@ -42,6 +42,14 @@
   </defs>
 
   <style>
+    /* Mode visual saja: teks tidak bisa diseleksi / dicopy */
+    svg, text, tspan {
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      -webkit-touch-callout: none;
+    }
     .code-font {
       font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', 'Source Code Pro', Menlo, Monaco, Consolas, 'Courier New', monospace;
     }
@@ -375,4 +383,7 @@
     </g>
 
   </g>
+
+  <!-- Lapisan pelindung transparan: teks hanya penampakan, tidak bisa diblok / diseleksi -->
+  <rect x="0" y="0" width="920" height="560" fill="none" pointer-events="all" aria-hidden="true"/>
 </svg>
